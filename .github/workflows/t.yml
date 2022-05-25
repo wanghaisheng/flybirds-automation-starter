@@ -1,5 +1,4 @@
 name: Run flybirds test
-
 on:
   workflow_dispatch:
   push:
