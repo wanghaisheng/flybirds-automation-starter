@@ -11,34 +11,39 @@ jobs:
   linux:
     runs-on: ubuntu-18.04
     timeout-minutes: 10
-
     steps:
-    - uses: actions/checkout@v2
-
-    - name: Create environment and install dependencies
+      - name: Check out this repo
+        uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: Install all necessary packages
+        run: |
+          pip install  flybirds
+          playwright install
+    - name: run demo
       run: |
-        $CONDA/bin/conda env create --file environment.yml --name py3.8
-        playwright install
-
-    - name: Create binary
-      run: |
-        $CONDA/envs/py3.8/bin/flybirds run -P features/test/web
+        flybirds run -P features/test/web
 
   macos:
     runs-on: macos-10.15
     timeout-minutes: 10
 
     steps:
-    - uses: actions/checkout@v2
-
-    - name: Create environment and install dependencies
+      - name: Check out this repo
+        uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: Install all necessary packages
+        run: |
+          pip install  flybirds
+          playwright install
+    - name: run demo
       run: |
-        sudo $CONDA/bin/conda env create --file environment.yml --name py3.8
-        playwright install
-
-    - name: Create macos app
-      run: |
-        $CONDA/envs/py3.8/bin/flybirds run -P features/test/web
+        flybirds run -P features/test/web
 
 
   windows:
@@ -46,17 +51,17 @@ jobs:
     timeout-minutes: 10
 
     steps:
-    - uses: actions/checkout@v2
-
-    - name: Create environment and install dependencies
+      - name: Check out this repo
+        uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: Install all necessary packages
+        run: |
+          pip install  flybirds
+          playwright install
+    - name: run demo
       run: |
-        %CONDA%\Scripts\conda.exe env create ^
-        --file environment.yml --name py3.8
-        playwright install
+        flybirds run -P features/test/web
 
-      shell: cmd
-
-    - name: Create binary
-      run: |
-        %CONDA%\envs\py3.8\Scripts\flybirds run -P .\features\test\web
-      shell: cmd
