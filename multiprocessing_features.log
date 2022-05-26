@@ -48,3 +48,44 @@
 2022-05-25 23:55:28,993;INFO;ForkPoolWorker-6;process shutting down
 2022-05-25 23:55:28,994;INFO;ForkPoolWorker-5;process shutting down
 2022-05-25 23:55:29,644;INFO;MainProcess;process shutting down
+2022-05-26 00:08:44,849;INFO;MainProcess;process shutting down
+2022-05-26 00:08:44,921;INFO;SpawnPoolWorker-3;web_cn_verify;2022-05-26 00:08:21.700863;2022-05-26 00:08:44.921866;23.2209228;Failed
+2022-05-26 00:08:56,761;INFO;MainProcess;process shutting down
+2022-05-26 00:08:57,482;INFO;SpawnPoolWorker-1;web_cn_page;2022-05-26 00:08:21.682862;2022-05-26 00:08:57.481844;35.7995885;Failed
+2022-05-26 00:09:06,818;INFO;MainProcess;process shutting down
+2022-05-26 00:09:07,348;INFO;SpawnPoolWorker-3;web_en_find;2022-05-26 00:08:44.922823;2022-05-26 00:09:07.348860;22.4256958;Failed
+2022-05-26 00:09:07,442;INFO;MainProcess;process shutting down
+2022-05-26 00:09:08,248;INFO;SpawnPoolWorker-4;web_en_click;2022-05-26 00:08:21.702862;2022-05-26 00:09:08.248863;46.5460864;Failed
+2022-05-26 00:09:15,036;INFO;MainProcess;process shutting down
+2022-05-26 00:09:15,106;INFO;SpawnPoolWorker-2;web_cn_click;2022-05-26 00:08:21.680862;2022-05-26 00:09:15.106870;53.4262608;Failed
+2022-05-26 00:09:29,562;INFO;MainProcess;process shutting down
+2022-05-26 00:09:29,627;INFO;SpawnPoolWorker-1;web_en_input;2022-05-26 00:08:57.482844;2022-05-26 00:09:29.627886;32.14479360000001;Failed
+2022-05-26 00:09:41,742;INFO;MainProcess;process shutting down
+2022-05-26 00:09:41,807;INFO;SpawnPoolWorker-4;web_en_page;2022-05-26 00:09:08.249863;2022-05-26 00:09:41.807899;33.557944799999994;Failed
+2022-05-26 00:09:42,919;INFO;MainProcess;process shutting down
+2022-05-26 00:09:43,259;INFO;SpawnPoolWorker-3;web_cn_swipe;2022-05-26 00:09:07.348860;2022-05-26 00:09:43.259901;35.9104923;Failed
+2022-05-26 00:09:50,692;INFO;MainProcess;process shutting down
+2022-05-26 00:09:51,210;INFO;SpawnPoolWorker-1;web_en_verify;2022-05-26 00:09:29.628888;2022-05-26 00:09:51.209905;21.581750400000004;Failed
+2022-05-26 00:09:57,428;INFO;MainProcess;process shutting down
+2022-05-26 00:09:57,496;INFO;SpawnPoolWorker-4;web_cn_find;2022-05-26 00:09:41.808901;2022-05-26 00:09:57.496908;15.688283900000002;Failed
+2022-05-26 00:09:58,730;INFO;MainProcess;process shutting down
+2022-05-26 00:09:58,817;INFO;SpawnPoolWorker-2;web_en_select;2022-05-26 00:09:15.107872;2022-05-26 00:09:58.817907;43.7104477;Failed
+2022-05-26 00:10:02,697;INFO;MainProcess;process shutting down
+2022-05-26 00:10:03,655;INFO;SpawnPoolWorker-3;web_cn_select;2022-05-26 00:09:43.260902;2022-05-26 00:10:03.654916;20.394548999999998;Failed
+2022-05-26 00:10:14,768;INFO;MainProcess;process shutting down
+2022-05-26 00:10:14,889;INFO;SpawnPoolWorker-1;web_en_record;2022-05-26 00:09:51.210905;2022-05-26 00:10:14.889946;23.6788198;Failed
+2022-05-26 00:10:21,366;INFO;MainProcess;process shutting down
+2022-05-26 00:10:21,445;INFO;SpawnPoolWorker-2;web_cn_record;2022-05-26 00:09:58.818909;2022-05-26 00:10:21.445346;22.626132499999997;Failed
+2022-05-26 00:10:25,572;INFO;MainProcess;process shutting down
+2022-05-26 00:10:25,638;INFO;SpawnPoolWorker-3;web_cn_input;2022-05-26 00:10:03.655915;2022-05-26 00:10:25.638104;21.981988799999996;Failed
+2022-05-26 00:10:27,350;INFO;MainProcess;process shutting down
+2022-05-26 00:10:27,417;INFO;SpawnPoolWorker-4;web_en_swipe;2022-05-26 00:09:57.497920;2022-05-26 00:10:27.417980;29.920033200000006;Failed
+2022-05-26 00:10:27,418;INFO;SpawnPoolWorker-1;process shutting down
+2022-05-26 00:10:27,418;INFO;SpawnPoolWorker-2;process shutting down
+2022-05-26 00:10:27,418;INFO;SpawnPoolWorker-1;process exiting with exitcode 0
+2022-05-26 00:10:27,419;INFO;SpawnPoolWorker-2;process exiting with exitcode 0
+2022-05-26 00:10:27,427;INFO;SpawnPoolWorker-3;process shutting down
+2022-05-26 00:10:27,427;INFO;SpawnPoolWorker-3;process exiting with exitcode 0
+2022-05-26 00:10:27,428;INFO;SpawnPoolWorker-4;process shutting down
+2022-05-26 00:10:27,428;INFO;SpawnPoolWorker-4;process exiting with exitcode 0
+2022-05-26 00:10:31,483;INFO;MainProcess;process shutting down
