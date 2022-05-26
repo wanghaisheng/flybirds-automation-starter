@@ -17,7 +17,8 @@ jobs:
         python-version: 3.9
     - name: Install extra fonts
       run: |
-        sudo apt-get install   fonts-arphic-ukai fonts-arphic-uming fonts-ipafont-mincho fonts-ipafont-gothic fonts-unfonts-core
+        sudo apt-get install fonts-droid ttf-wqy-zenhei ttf-wqy-microhei fonts-arphic-ukai fonts-arphic-uming
+        sudo apt-get install 
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
