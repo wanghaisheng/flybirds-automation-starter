@@ -1,0 +1,42 @@
+
+name: my flybirds jobs
+
+on:
+  # push:
+  workflow_dispatch:
+
+jobs:
+  build-ubuntu:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Install extra fonts
+      run: |
+        sudo apt-get install   fonts-arphic-ukai fonts-arphic-uming fonts-ipafont-mincho fonts-ipafont-gothic fonts-unfonts-core
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install flybirds
+        playwright install
+    - name: run demo
+      run: |
+        flybirds run -P features/test/web
+    # 配置git
+    - name: Config git
+      run: |
+        git config --local user.email "ations@github.com"
+        git config --local user.name "github"
+        git remote set-url origin "https://${{ github.actor }}:${{ github.token }}@github.com/${{ github.repository }}"
+    # 更新仓库
+    - name: Update repo
+      run: |
+        git add .
+        git commit -m "auto update upwork"
+        git pull
+        git push -u origin main
+      
