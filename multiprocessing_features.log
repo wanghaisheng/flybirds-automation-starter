@@ -138,3 +138,52 @@
 2022-05-26 00:25:44,410;INFO;ForkPoolWorker-5;process shutting down
 2022-05-26 00:25:44,411;INFO;ForkPoolWorker-6;process shutting down
 2022-05-26 00:25:46,522;INFO;MainProcess;process shutting down
+2022-05-26 00:53:16,653;INFO;ForkPoolWorker-1;child process calling self.run()
+2022-05-26 00:53:16,656;INFO;ForkPoolWorker-2;child process calling self.run()
+2022-05-26 00:53:16,658;INFO;ForkPoolWorker-4;child process calling self.run()
+2022-05-26 00:53:16,659;INFO;ForkPoolWorker-3;child process calling self.run()
+2022-05-26 00:53:42,937;INFO;MainProcess;process shutting down
+2022-05-26 00:53:43,107;INFO;ForkPoolWorker-1;web_en_page;2022-05-26 00:53:16.661062;2022-05-26 00:53:43.107598;26.446538452;Failed
+2022-05-26 00:53:45,655;INFO;MainProcess;process shutting down
+2022-05-26 00:53:45,881;INFO;ForkPoolWorker-2;web_cn_click;2022-05-26 00:53:16.663092;2022-05-26 00:53:45.881463;29.218373612000008;Failed
+2022-05-26 00:53:46,225;INFO;MainProcess;process shutting down
+2022-05-26 00:53:46,295;INFO;ForkPoolWorker-3;web_cn_swipe;2022-05-26 00:53:16.666010;2022-05-26 00:53:46.295439;29.62943348200001;Failed
+2022-05-26 00:53:51,065;INFO;MainProcess;process shutting down
+2022-05-26 00:53:51,262;INFO;ForkPoolWorker-4;web_cn_select;2022-05-26 00:53:16.667810;2022-05-26 00:53:51.262001;34.594194560999995;Failed
+2022-05-26 00:53:53,359;INFO;MainProcess;process shutting down
+2022-05-26 00:53:53,457;INFO;ForkPoolWorker-3;web_en_verify;2022-05-26 00:53:46.302387;2022-05-26 00:53:53.457656;7.155275367999991;Failed
+2022-05-26 00:53:58,952;INFO;MainProcess;process shutting down
+2022-05-26 00:53:59,262;INFO;ForkPoolWorker-4;web_cn_find;2022-05-26 00:53:51.262789;2022-05-26 00:53:59.261921;7.999141186000003;Failed
+2022-05-26 00:54:01,342;INFO;MainProcess;process shutting down
+2022-05-26 00:54:01,484;INFO;ForkPoolWorker-3;web_en_find;2022-05-26 00:53:53.458197;2022-05-26 00:54:01.484219;8.026029300000005;Failed
+2022-05-26 00:54:11,241;INFO;MainProcess;process shutting down
+2022-05-26 00:54:11,379;INFO;MainProcess;process shutting down
+2022-05-26 00:54:11,395;INFO;ForkPoolWorker-3;web_cn_verify;2022-05-26 00:54:01.484754;2022-05-26 00:54:11.395062;9.910316377000015;Failed
+2022-05-26 00:54:11,466;INFO;ForkPoolWorker-2;web_en_click;2022-05-26 00:53:45.882092;2022-05-26 00:54:11.466753;25.58466913799998;Failed
+2022-05-26 00:54:11,797;INFO;MainProcess;process shutting down
+2022-05-26 00:54:11,969;INFO;ForkPoolWorker-1;web_en_swipe;2022-05-26 00:53:43.108370;2022-05-26 00:54:11.968853;28.86049121800002;Failed
+2022-05-26 00:54:18,995;INFO;MainProcess;process shutting down
+2022-05-26 00:54:19,342;INFO;ForkPoolWorker-4;web_cn_record;2022-05-26 00:53:59.262556;2022-05-26 00:54:19.342434;20.079886321999993;Failed
+2022-05-26 00:54:28,832;INFO;MainProcess;process shutting down
+2022-05-26 00:54:28,902;INFO;ForkPoolWorker-3;web_en_input;2022-05-26 00:54:11.395615;2022-05-26 00:54:28.902135;17.506527879999993;Failed
+2022-05-26 00:54:31,395;INFO;MainProcess;process shutting down
+2022-05-26 00:54:31,814;INFO;ForkPoolWorker-1;web_cn_input;2022-05-26 00:54:11.969639;2022-05-26 00:54:31.813975;19.844345265000015;Failed
+2022-05-26 00:54:34,257;INFO;MainProcess;process shutting down
+2022-05-26 00:54:34,445;INFO;ForkPoolWorker-2;web_cn_page;2022-05-26 00:54:11.467323;2022-05-26 00:54:34.445489;22.97817396099998;Failed
+2022-05-26 00:54:38,042;INFO;MainProcess;process shutting down
+2022-05-26 00:54:38,118;INFO;ForkPoolWorker-4;web_en_record;2022-05-26 00:54:19.342971;2022-05-26 00:54:38.117923;18.774960180999983;Failed
+2022-05-26 00:54:55,064;INFO;MainProcess;process shutting down
+2022-05-26 00:54:55,139;INFO;ForkPoolWorker-3;web_en_select;2022-05-26 00:54:28.902861;2022-05-26 00:54:55.139045;26.236192869999996;Failed
+2022-05-26 00:54:55,140;INFO;ForkPoolWorker-1;process shutting down
+2022-05-26 00:54:55,142;INFO;ForkPoolWorker-2;process shutting down
+2022-05-26 00:54:55,142;INFO;ForkPoolWorker-4;process shutting down
+2022-05-26 00:54:55,144;INFO;ForkPoolWorker-3;process shutting down
+2022-05-26 00:54:55,419;INFO;ForkPoolWorker-5;child process calling self.run()
+2022-05-26 00:54:55,422;INFO;ForkPoolWorker-6;child process calling self.run()
+2022-05-26 00:55:12,168;INFO;MainProcess;process shutting down
+2022-05-26 00:55:12,243;INFO;ForkPoolWorker-6;web_en_select;2022-05-26 00:54:55.423329;2022-05-26 00:55:12.243149;16.81982427700001;Failed
+2022-05-26 00:55:13,062;INFO;MainProcess;process shutting down
+2022-05-26 00:55:13,143;INFO;ForkPoolWorker-5;web_cn_select;2022-05-26 00:54:55.421594;2022-05-26 00:55:13.143600;17.722009391;Failed
+2022-05-26 00:55:13,145;INFO;ForkPoolWorker-6;process shutting down
+2022-05-26 00:55:13,147;INFO;ForkPoolWorker-5;process shutting down
+2022-05-26 00:55:13,680;INFO;MainProcess;process shutting down
